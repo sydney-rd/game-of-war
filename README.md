@@ -2,19 +2,19 @@
 
 # Game of War
 
-Remember the card game ["War"](https://bicyclecards.com/how-to-play/war/)?
+Have you played the card game ["War"](https://bicyclecards.com/how-to-play/war/)? It's very simple! 
 
-Two players start the game by splitting a deck of 52 standard playing cards
-evenly. Each stack is facedown, and players cannot look at the cards in their
-stack or rearrange them.
+Two players evenly split a shuffled deck of 52 standard playing cards. 
+Each stack is facedown, and players cannot look at the cards in their stack or rearrange them.
+The objective of the game is to play until one player has all 52 cards in their stack.
 
-The objective of the game is to play until one player has all 52 cards in their
-stack.
+Players take turns playing the top card from their stacks. 
+Whoever's card is a higher value puts both cards at the bottom of their stack.
 
-## Prerequisites
+If there is a tie, then it's War! Each player adds three cards of their stack face down.
+Each player reveals their fourth card. Whoever wins that reveal takes all of the cards!
+If there is another tie the process repeats until there is a winner.
 
-- Javascript
-- Object Oriented Programming
 
 ## Instructions
 
@@ -26,34 +26,18 @@ Please turn in your submission by the deadline on your cohort calendar. Submit
 your project by posting an issue on this repository with a link to your
 repository on GitHub (not GitHub Enterprise).
 
-## Requirements
-
-To play, each player reveals the top card in their stack. The player who played
-the card with the higher rank (Aces high) takes both cards and puts them at the
-bottom of their stack in an arbitrary order.
-
-If there is a tie, then it's War! In the card game each player adds places the
-top three cards of their stack face down, and then each player reveals the top
-card again. Whoever wins out of the second reveal takes all of the cards, and if
-there is another tie the process repeats until there is a winner.
 
 ### Technical Requirements
 
-For this project, we'd like you to make it so we can play the game through the
-console in the browser. You'll therefore need an `index.html` file that
-includes the scripts for your game.
-
-Additionally, your project should meet the following requirements:
+Your project should meet the following requirements:
 
 - Your game should run without errors
-- The game should start when the player loads the page. Create your two players
-    and start the rounds!
-- Print a message for each "round" of the game showing the cards played by each
-    user, who won the round, and how many cards each player now has.
-- Include a README written in well formatted Markdown (_hint: look up README
-    templates_)
-- Show a good commit history with frequent commits (We're looking for lots of
-    small commits)
+- The game starts immediately when the JavaScript is executed. Create your two players and start the rounds!
+- There is no user input. The program simply loops through rounds until the game is finished.
+- Print a message for each round showing the cards played by each user, who won the round, and how many cards each player has.
+- Include a README written in well-formatted Markdown (_hint: look up README templates_)
+- Show a good commit history with frequent commits (We're looking for lots of small commits!)
+
 
 ## Hints
 
