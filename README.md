@@ -2,7 +2,7 @@
 
 # Game of War
 
-Have you played the card game ["War"](https://bicyclecards.com/how-to-play/war/)? It's very simple! 
+Have you played the card game ["War"](https://www.youtube.com/watch?v=J5vT33Vo04s)? It's very simple! 
 
 Two players evenly split a shuffled deck of 52 standard playing cards. 
 Each stack is facedown, and players cannot look at the cards in their stack or rearrange them.
