@@ -35,7 +35,7 @@ Your project should meet the following requirements:
 - The game starts immediately when the JavaScript is executed. Create your two players and start the rounds!
 - There is no user input. The program simply loops through rounds until the game is finished.
 - Print a message for each round showing the cards played by each user, who won the round, and how many cards each player has.
-- Include a README written in well-formatted Markdown (_hint: look up README templates_)
+- Include a README written in well-formatted Markdown (_hint: look up [README templates](https://www.readme-templates.com/)_)
 - Show a good commit history with frequent commits (We're looking for lots of small commits!)
 
 
