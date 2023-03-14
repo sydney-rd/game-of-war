@@ -53,7 +53,7 @@ class gameOfWar {
         this.pile.length = 0; // clear pile 
         console.log(`Player 1 wins entire game, they have ${this.p1.length} cards`); 
     }
-}
+} 
     // player 1 and 2 are not having the cards push properly !!!
     war() {
         if (this.p1.length <= 3) {
