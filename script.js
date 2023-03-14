@@ -53,16 +53,16 @@ class gameOfWar {
         this.pile.length = 0; // clear pile 
         console.log(`Player 1 wins entire game, they have ${this.p1.length} cards`); 
     }
-    
 }
     // player 1 and 2 are not having the cards push properly !!!
     war() {
         if (this.p1.length <= 3) {
+            this.pile.push(...this.p2)
             // player 1 loses
             this.p1.length = 0
         } else if (this.p2.length <= 3) {
             // player 2 loses
-            this.pile.push(...this.p2)
+            this.pile.push(...this.p1)
             this.p2.length = 0
         } else {
             this.pile.push(...this.p1.splice(this.p1.length - 3, 3)); // removes 3 cards
@@ -91,8 +91,7 @@ class Deck {
                 this.cards.push(new Card(suits[j], rank[i], i+1));
             }
         }
-    }
-    
+    }    
 }
 
 // test code
