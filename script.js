@@ -56,13 +56,13 @@ class gameOfWar {
 } 
     // player 1 and 2 are not having the cards push properly !!!
     war() {
-        if (this.p1.length <= 3) {
-            this.pile.push(...this.p2)
+        if (this.p1.length < 3) {
+            this.pile.push(...this.p1)
             // player 1 loses
             this.p1.length = 0
-        } else if (this.p2.length <= 3) {
+        } else if (this.p2.length < 3) {
             // player 2 loses
-            this.pile.push(...this.p1)
+            this.pile.push(...this.p2)
             this.p2.length = 0
         } else {
             this.pile.push(...this.p1.splice(this.p1.length - 3, 3)); // removes 3 cards

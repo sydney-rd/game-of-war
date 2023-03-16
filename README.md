@@ -20,4 +20,5 @@ https://nodejs.org/en/download/
 # run
 
 in your terminal:
+
 node script.js
