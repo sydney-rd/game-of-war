@@ -1,4 +1,3 @@
-// game of war class 
 class gameOfWar {
     constructor() {
         this.p1 = [];
@@ -94,16 +93,6 @@ class Deck {
     }    
 }
 
-// test code
-// calls card and deck class
-// const test_deck = new Deck();
-// console.log(test_deck)
-
-// calls and tests the split function
-// const game = new Game();
-// console.log(game.p1);
-// console.log("split")
-// console.log(game.p2);
 let game = new gameOfWar();
-// game1.gameInit();
+
 game.startGame();
